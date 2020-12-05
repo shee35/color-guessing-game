@@ -1,0 +1,53 @@
+body{
+	background-color: #b9a669;
+	font-family: 'Oswald', sans-serif;
+}
+.square{
+	width: 30%;
+	background: #232323;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius:50%;
+	box-shadow: 6px 8px grey;
+}
+.square:hover{
+	transform: scale(1.06);
+}
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1{
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 15px;
+	border-radius: 1.5rem;
+}
+
+#stripe{
+	font-size: 30px;
+	font-weight: bold;
+	height: 50px;
+	text-align: center;
+	border-radius: 1.5rem;
+	margin-bottom: 20px;
+}
+button{
+	border-radius: 1.5rem;
+	margin: 8px;
+	transition-duration: 0.4s;
+	background-color: violet;
+	padding: 10px 20px;
+	size: 40px;
+	text-decoration: none;
+	outline: none;
+}
+ 
+button:hover {
+	background-color: #71a073; /* Green */
+	color: white;
+	transform: scale(1.1);
+}
